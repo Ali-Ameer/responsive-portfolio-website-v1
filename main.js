@@ -7,8 +7,8 @@ open_menu.addEventListener("click", () => {
     menu.style.display = "block";
     close_menu.style.display = "inline-block";
     open_menu.style.display = "none";
-    
-    
+
+
 })
 const closenav = () => {
     menu.style.display = "none";
@@ -25,5 +25,5 @@ if (window.innerWidth < 1024) {
 }
 
 window.addEventListener("scroll", () => {
-    document.querySelector("nav").classList.toggle("nav-bg-scroll", window.scrollY > 0 )
-} )
+    document.querySelector("nav").classList.toggle("nav-bg-scroll", window.scrollY > 0)
+})
